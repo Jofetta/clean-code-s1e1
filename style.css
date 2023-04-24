@@ -36,7 +36,7 @@ body {
 .section__input {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 
 .section__wrapper {
@@ -135,7 +135,7 @@ input,button{
 }
 
 .section__input_text {
-    width: 226px
+    width: 226px;
 }
 
 .section__btn-delete-img {
@@ -150,18 +150,18 @@ input,button{
 
 /* Completed */
 .section__task-list_complete label {
-    text-decoration: line-through
+    text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
 ul li .section__input_text {
-    display: none
+    display: none;
 }
 
 ul li.edit-mode .section__input_text {
     display: inline-block;
-    width: 224px
+    width: 224px;
 }
 
 ul li.edit-mode label {
